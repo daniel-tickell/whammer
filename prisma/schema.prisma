@@ -1,0 +1,38 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Category {
+  id          Int          @id @default(autoincrement())
+  name        String       @unique
+  collections Collection[]
+  createdAt   DateTime     @default(now())
+}
+
+model Collection {
+  id         Int         @id @default(autoincrement())
+  name       String      @unique
+  categoryId Int
+  category   Category    @relation(fields: [categoryId], references: [id])
+  miniatures Miniature[]
+  createdAt  DateTime    @default(now())
+}
+
+model Miniature {
+  id           Int        @id @default(autoincrement())
+  kitName      String
+  qty          Int        @default(1)
+  collectionId Int
+  collection   Collection @relation(fields: [collectionId], references: [id], onDelete: Cascade)
+  state        String     @default("Unassembled") // Unassembled, Assembled, Primed, Painted, Finished
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+}

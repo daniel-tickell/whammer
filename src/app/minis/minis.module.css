@@ -1,0 +1,546 @@
+.appContainer {
+  display: flex;
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 380px;
+  background-color: #242424;
+  border-right: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.sidebarHeader {
+  margin-bottom: 24px;
+}
+
+.sidebarTitleRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.sidebarTitleRow h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.sidebarActions {
+  display: flex;
+  gap: 12px;
+}
+
+.actionIcon {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  font-size: 1.2rem;
+}
+
+.actionIcon:hover {
+  opacity: 1;
+}
+
+.globalStats {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.statBox {
+  flex: 1;
+  min-width: 70px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 4px;
+}
+
+.statBoxValue {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.statBoxLabel {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.sidebarContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.superFactionGroup {
+  border-bottom: 1px solid #333;
+  padding-bottom: 12px;
+}
+
+.superFactionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 0 8px;
+}
+
+.superFactionHeader h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ddd;
+  margin: 0;
+}
+
+.sfActions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.addInlineIcon {
+  cursor: pointer;
+  color: #27AE60;
+  font-size: 1.2rem;
+  font-weight: bold;
+  opacity: 0.6;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.addInlineIcon:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.factionList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.factionItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+
+.factionItem:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.activeFaction {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.factionName {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.factionCount {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.factionHighlight {
+  position: absolute;
+  bottom: 0;
+  left: 12px;
+  right: 12px;
+  height: 3px;
+  background-color: #D35400; /* Default highlight */
+  border-radius: 3px;
+  opacity: 0.7;
+}
+
+.activeFaction .factionHighlight {
+  background-color: #27AE60;
+  opacity: 1;
+}
+
+.sidebarEmpty {
+  color: #666;
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+}
+
+/* Main Content */
+.mainContent {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.mainTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.factionStatsBar {
+  display: flex;
+  background-color: #27AE60;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 40px;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 800px;
+  justify-content: space-around;
+  box-shadow: 0 4px 15px rgba(39, 174, 96, 0.2);
+}
+
+.factionStat {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 12px 24px;
+  border-radius: 6px;
+}
+
+.fsValue {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.fsLabel {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.actionsBar {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.addBtn {
+  background-color: transparent;
+  color: #aaa;
+  border: none;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.addBtn:hover {
+  color: #fff;
+}
+
+.unitsList {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.unitItem {
+  background-color: #333;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.unitItem:hover {
+  background-color: #3a3a3a;
+}
+
+.unitHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+}
+
+.unitName {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.unitRight {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.unitQty {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.deleteMiniBtn {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: color 0.2s;
+}
+
+.deleteMiniBtn:hover {
+  color: #ff4d4d;
+}
+
+.progressBarContainer {
+  height: 6px;
+  background-color: #222;
+  width: 100%;
+}
+
+.progressBar {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+/* Empty States */
+.emptyStateContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.emptyStateContainer h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.emptyState {
+  text-align: center;
+  color: #888;
+  padding: 40px;
+}
+
+/* Modal */
+.modalOverlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modalContent {
+  background-color: #242424;
+  border-radius: 12px;
+  padding: 30px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+  border: 1px solid #333;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.modalHeader h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.closeBtn:hover {
+  color: #fff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 12px;
+}
+
+.input, .select, .inputQty {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  padding: 12px;
+  border-radius: 6px;
+  color: #fff;
+  flex: 1;
+  font-size: 1rem;
+  outline: none;
+}
+
+.inputQty {
+  flex: 0 0 80px;
+}
+
+.input:focus, .select:focus, .inputQty:focus {
+  border-color: #1565C0;
+}
+
+.optionsGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.button {
+  background-color: #27AE60;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #219653;
+}
+
+.button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+.previewContainer {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #333;
+}
+
+.previewList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.previewRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.previewInputQty {
+  width: 60px;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.previewInputName {
+  flex-grow: 1;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.previewRemoveBtn {
+  background: none;
+  border: none;
+  color: #ff4d4d;
+  cursor: pointer;
+}
+
+.previewActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.cancelBtn {
+  background-color: transparent;
+  color: #aaa;
+  border: 1px solid #555;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.confirmBtn {
+  background-color: #1565C0;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
