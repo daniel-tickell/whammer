@@ -1,0 +1,1264 @@
+{
+  "data": [
+    {
+      "Faction": "Chaos Space Marine",
+      "Unit Name": "Abaddon",
+      "Quantity": "1",
+      "Base Size": "60mm"
+    },
+    {
+      "Faction": "Chaos Space Marine",
+      "Unit Name": "Accursed Cultists",
+      "Quantity": "8",
+      "Base Size": "25mm / 40mm"
+    },
+    {
+      "Faction": "Salamanders",
+      "Unit Name": "Adrax Agatone",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Aggressor",
+      "Quantity": "3",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Aggressor",
+      "Quantity": "3",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "World Eaters",
+      "Unit Name": "Angron",
+      "Quantity": "1",
+      "Base Size": "100mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Apothecary",
+      "Quantity": "1",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Assault Intercessor Squad",
+      "Quantity": "10",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Ballistus Dreadnought",
+      "Quantity": "1",
+      "Base Size": "90mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Bladeguard Veterans",
+      "Quantity": "3",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "World Eaters",
+      "Unit Name": "Blood Crushers",
+      "Quantity": "6",
+      "Base Size": "90x52mm"
+    },
+    {
+      "Faction": "World Eaters",
+      "Unit Name": "Bloodletters",
+      "Quantity": "10",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "World Eaters",
+      "Unit Name": "Bloodletters",
+      "Quantity": "10",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Captain in Gravis Armour",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Chaos Space Marine",
+      "Unit Name": "Chaos Cultists",
+      "Quantity": "10",
+      "Base Size": "25mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Chaos Rhino",
+      "Quantity": "1",
+      "Base Size": "No base"
+    },
+    {
+      "Faction": "Chaos Space Marine",
+      "Unit Name": "Chaos Spawn",
+      "Quantity": "2",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Chaos Space Marine",
+      "Unit Name": "Chaos Terminators",
+      "Quantity": "5",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Company Heroes",
+      "Quantity": "5",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Chaos Space Marine",
+      "Unit Name": "Corrupted Rhino",
+      "Quantity": "1",
+      "Base Size": "No base"
+    },
+    {
+      "Faction": "Chaos Space Marine",
+      "Unit Name": "Cultist Warband",
+      "Quantity": "8",
+      "Base Size": "25mm"
+    },
+    {
+      "Faction": "World Eaters",
+      "Unit Name": "Daemon Prince",
+      "Quantity": "1",
+      "Base Size": "60mm"
+    },
+    {
+      "Faction": "Death Guard",
+      "Unit Name": "Deathshroud Terminators",
+      "Quantity": "3",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Chaos Space Marine",
+      "Unit Name": "Defiler",
+      "Quantity": "1",
+      "Base Size": "160mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Dreadnought",
+      "Quantity": "1",
+      "Base Size": "60mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Eliminator Squad",
+      "Quantity": "3",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Eradicator Squad",
+      "Quantity": "3",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Eradicator Squad",
+      "Quantity": "3",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Emperor's Children",
+      "Unit Name": "Flawless Blades",
+      "Quantity": "6",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Emperor's Children",
+      "Unit Name": "Flawless Blades",
+      "Quantity": "6",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Emperor's Children",
+      "Unit Name": "Fulgrim",
+      "Quantity": "1",
+      "Base Size": "100mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Heavy Intercessor Squad",
+      "Quantity": "5",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Chaos Space Marine",
+      "Unit Name": "Helbrute",
+      "Quantity": "1",
+      "Base Size": "60mm"
+    },
+    {
+      "Faction": "Chaos Space Marine",
+      "Unit Name": "Heldrake",
+      "Quantity": "1",
+      "Base Size": "120x92mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Hellblaster Squad",
+      "Quantity": "5",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Inceptor Squad",
+      "Quantity": "3",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Infernus Squad",
+      "Quantity": "5",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Emperor's Children",
+      "Unit Name": "Infractors",
+      "Quantity": "10",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Intercessor Squad",
+      "Quantity": "10",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Intercessor Squad",
+      "Quantity": "10",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Invader ATV",
+      "Quantity": "1",
+      "Base Size": "90mm"
+    },
+    {
+      "Faction": "World Eaters",
+      "Unit Name": "Jakhals",
+      "Quantity": "10",
+      "Base Size": "28.5mm"
+    },
+    {
+      "Faction": "World Eaters",
+      "Unit Name": "Jakhals",
+      "Quantity": "10",
+      "Base Size": "28.5mm"
+    },
+    {
+      "Faction": "World Eaters",
+      "Unit Name": "Kharn The Destroyer",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "World Eaters",
+      "Unit Name": "Khorne Berzerkers",
+      "Quantity": "10",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "World Eaters",
+      "Unit Name": "Khorne Berzerkers",
+      "Quantity": "10",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "World Eaters",
+      "Unit Name": "Khorne Berzerkers",
+      "Quantity": "10",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Land Raider Redeemer",
+      "Quantity": "1",
+      "Base Size": "No base"
+    },
+    {
+      "Faction": "Chaos Space Marine",
+      "Unit Name": "Legionaries",
+      "Quantity": "10",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Librarian in Phobos Armour",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Lieutenant",
+      "Quantity": "1",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Chaos Space Marine",
+      "Unit Name": "Lord Discordant on Helstalker",
+      "Quantity": "1",
+      "Base Size": "120x92mm"
+    },
+    {
+      "Faction": "Emperor's Children",
+      "Unit Name": "Lord Exultant",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "World Eaters",
+      "Unit Name": "Lord Invocatus",
+      "Quantity": "1",
+      "Base Size": "90x52mm"
+    },
+    {
+      "Faction": "Death Guard",
+      "Unit Name": "Lord of Virulence",
+      "Quantity": "1",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Chaos Space Marine",
+      "Unit Name": "Master of Executions",
+      "Quantity": "2",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Emperor's Children",
+      "Unit Name": "Noise Marines",
+      "Quantity": "6",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Death Guard",
+      "Unit Name": "Plague Marines",
+      "Quantity": "7",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Chaos Space Marine",
+      "Unit Name": "Raptors",
+      "Quantity": "5",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Scout Squad",
+      "Quantity": "5",
+      "Base Size": "28.5mm"
+    },
+    {
+      "Faction": "Chaos Space Marine",
+      "Unit Name": "Skarbrand",
+      "Quantity": "1",
+      "Base Size": "100mm"
+    },
+    {
+      "Faction": "World Eaters",
+      "Unit Name": "Slaughterbound",
+      "Quantity": "1",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Stormraven Gunship",
+      "Quantity": "1",
+      "Base Size": "120x92mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Stormspeeder",
+      "Quantity": "1",
+      "Base Size": "90mm"
+    },
+    {
+      "Faction": "Death Guard",
+      "Unit Name": "Tallyman",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Tech Marine",
+      "Quantity": "1",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Terminator Squad",
+      "Quantity": "5",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Space Marine",
+      "Unit Name": "Terminator Squad",
+      "Quantity": "5",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Salamanders",
+      "Unit Name": "Vulkan He'stan",
+      "Quantity": "1",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Canoptek Wraiths",
+      "Quantity": "3",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Silent King",
+      "Quantity": "1",
+      "Base Size": "100mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "C'Tan Shard of the Nightbringer",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Monolith",
+      "Quantity": "1",
+      "Base Size": "160mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Flayed Ones",
+      "Quantity": "5",
+      "Base Size": "28.5mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Immortals",
+      "Quantity": "5",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Chronomancer",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Trayzen",
+      "Quantity": "1",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Obyron",
+      "Quantity": "1",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Imotekh",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Orikin",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Plasmancer",
+      "Quantity": "1",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Nemasor",
+      "Quantity": "1",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Illuminator Szeras",
+      "Quantity": "1",
+      "Base Size": "80mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Necron Warriors",
+      "Quantity": "10",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Canoptek Doomstalker",
+      "Quantity": "1",
+      "Base Size": "90mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Skorpekh Destroyers",
+      "Quantity": "4",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Canoptek Scarab Swarm",
+      "Quantity": "3",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Overlord",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Hexmark Destroyer",
+      "Quantity": "1",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Locust Heavy Destroyer",
+      "Quantity": "2",
+      "Base Size": "60mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Skorpeky Destroyer",
+      "Quantity": "3",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Ophydian Destroyer",
+      "Quantity": "3",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Necrons",
+      "Unit Name": "Plasmacyte",
+      "Quantity": "2",
+      "Base Size": "28.5mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Biovore",
+      "Quantity": "1",
+      "Base Size": "80mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Hive Tyrant",
+      "Quantity": "1",
+      "Base Size": "60mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Neurotyrant",
+      "Quantity": "1",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Tyrannofex",
+      "Quantity": "1",
+      "Base Size": "120x92mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Parasite of Mortrex",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Winged Tyrant Prime",
+      "Quantity": "1",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Winged Tyrant Prime",
+      "Quantity": "1",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Winged Tyrant Prime",
+      "Quantity": "1",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Neurogaunts",
+      "Quantity": "11",
+      "Base Size": "25mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Barbagaunts",
+      "Quantity": "10",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Neurolictor",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Neurolictor",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Psychophage",
+      "Quantity": "1",
+      "Base Size": "120x92mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Psychophage",
+      "Quantity": "1",
+      "Base Size": "120x92mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Termagants",
+      "Quantity": "10",
+      "Base Size": "28.5mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Termagants",
+      "Quantity": "10",
+      "Base Size": "28.5mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Termagants",
+      "Quantity": "10",
+      "Base Size": "28.5mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Termagants",
+      "Quantity": "10",
+      "Base Size": "28.5mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Termagants",
+      "Quantity": "10",
+      "Base Size": "28.5mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Termagants",
+      "Quantity": "10",
+      "Base Size": "28.5mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Termagants",
+      "Quantity": "10",
+      "Base Size": "28.5mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Von Ryan's Leapers",
+      "Quantity": "3",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Von Ryan's Leapers",
+      "Quantity": "3",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Von Ryan's Leapers",
+      "Quantity": "3",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Zoanthropes",
+      "Quantity": "3",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Spore Mine",
+      "Quantity": "3",
+      "Base Size": "25mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Ripper Swarm",
+      "Quantity": "4",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Old One Eye",
+      "Quantity": "1",
+      "Base Size": "60mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Carnifax",
+      "Quantity": "2",
+      "Base Size": "60mm"
+    },
+    {
+      "Faction": "Tyranids",
+      "Unit Name": "Tyrant Guards",
+      "Quantity": "3",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Ghazghkull",
+      "Quantity": "1",
+      "Base Size": "80mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Merkari",
+      "Quantity": "1",
+      "Base Size": "25mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Zodgrod Wortsnagga",
+      "Quantity": "1",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Beast Boss",
+      "Quantity": "1",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Big Mek",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Painboy",
+      "Quantity": "1",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Warboss in Mega Armor",
+      "Quantity": "1",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Beast Snagga Boyz",
+      "Quantity": "10",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Boyz",
+      "Quantity": "11",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Flash Gitz",
+      "Quantity": "5",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Runtherd & Gretchen",
+      "Quantity": "22",
+      "Base Size": "32mm & 25mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Kommandos",
+      "Quantity": "12",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Lootas",
+      "Quantity": "10",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Meganobz",
+      "Quantity": "2",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Nobz",
+      "Quantity": "5",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Stormboyz",
+      "Quantity": "5",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Tankbustas",
+      "Quantity": "6",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Squighog boyz",
+      "Quantity": "5",
+      "Base Size": "75x42mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Battle Wagon",
+      "Quantity": "1",
+      "Base Size": "No base"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Killa Kans",
+      "Quantity": "3",
+      "Base Size": "60mm"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Trukk",
+      "Quantity": "1",
+      "Base Size": "No base"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Trukk",
+      "Quantity": "1",
+      "Base Size": "No base"
+    },
+    {
+      "Faction": "Orks",
+      "Unit Name": "Red Gobbos Tin Boy",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Blood Angels",
+      "Unit Name": "Captain",
+      "Quantity": "1",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Blood Angels",
+      "Unit Name": "Sanguinary Guard",
+      "Quantity": "6",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Blood Angels",
+      "Unit Name": "Assault Intercessors",
+      "Quantity": "10",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Grey Knights",
+      "Unit Name": "Castellan Crowe",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Grey Knights",
+      "Unit Name": "Nemesis Dreadknight",
+      "Quantity": "1",
+      "Base Size": "120x92mm"
+    },
+    {
+      "Faction": "Grey Knights",
+      "Unit Name": "Paladins",
+      "Quantity": "5",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Grey Knights",
+      "Unit Name": "Strike Squad",
+      "Quantity": "10",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Grey Knights",
+      "Unit Name": "Strike Squad",
+      "Quantity": "10",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Grey Knights",
+      "Unit Name": "Brotherhood Terminators",
+      "Quantity": "5",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Archaeopter Stratoraptor",
+      "Quantity": "1",
+      "Base Size": "170x109mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Belisarius Cawl",
+      "Quantity": "1",
+      "Base Size": "105x70mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Cybernetica Datasmith",
+      "Quantity": "1",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Cybernetica Datasmith",
+      "Quantity": "1",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Ironstrider Ballistarii",
+      "Quantity": "1",
+      "Base Size": "105x70mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Ironstrider Ballistarii",
+      "Quantity": "1",
+      "Base Size": "105x70mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Kastelan Robots",
+      "Quantity": "2",
+      "Base Size": "60mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Kastelan Robots",
+      "Quantity": "2",
+      "Base Size": "60mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Kataphron Breachers",
+      "Quantity": "3",
+      "Base Size": "60mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Kataphron Breachers",
+      "Quantity": "3",
+      "Base Size": "60mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Kataphron Breachers",
+      "Quantity": "3",
+      "Base Size": "60mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Onager Dunecrawler",
+      "Quantity": "1",
+      "Base Size": "130mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Pteraxii Sterylizors",
+      "Quantity": "5",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Serberys Raiders",
+      "Quantity": "3",
+      "Base Size": "60x35.5mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Sicarian Infiltrators",
+      "Quantity": "5",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Skitarii Electro Priests",
+      "Quantity": "5",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Skitarii Marshal",
+      "Quantity": "1",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Skitarii Rangers",
+      "Quantity": "10",
+      "Base Size": "25mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Skitarii Rangers",
+      "Quantity": "10",
+      "Base Size": "25mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Skitarii Rangers",
+      "Quantity": "10",
+      "Base Size": "25mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Skitarii Vanguard",
+      "Quantity": "10",
+      "Base Size": "25mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Skitarii Vanguard",
+      "Quantity": "10",
+      "Base Size": "25mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Skitarii Vanguard",
+      "Quantity": "10",
+      "Base Size": "25mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Skorpius Disintegrator",
+      "Quantity": "1",
+      "Base Size": "No base"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Skorpius Dunerider",
+      "Quantity": "1",
+      "Base Size": "No base"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Sydonian Skatros",
+      "Quantity": "1",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Tech Priest Dominus",
+      "Quantity": "2",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Tech Priest Manipulus",
+      "Quantity": "2",
+      "Base Size": "50mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Tech-Priest Enginseer",
+      "Quantity": "1",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Adeptus Mechanicus",
+      "Unit Name": "Thulia Guld",
+      "Quantity": "1",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Imperial Knights",
+      "Unit Name": "Knight Questoris",
+      "Quantity": "1",
+      "Base Size": "170x109mm"
+    },
+    {
+      "Faction": "Imperial Knights",
+      "Unit Name": "Armiger",
+      "Quantity": "1",
+      "Base Size": "100mm"
+    },
+    {
+      "Faction": "Imperial Knights",
+      "Unit Name": "Armiger",
+      "Quantity": "1",
+      "Base Size": "100mm"
+    },
+    {
+      "Faction": "Imperial Knights",
+      "Unit Name": "Armiger",
+      "Quantity": "1",
+      "Base Size": "100mm"
+    },
+    {
+      "Faction": "Imperial Knights",
+      "Unit Name": "Armiger",
+      "Quantity": "1",
+      "Base Size": "100mm"
+    },
+    {
+      "Faction": "Imperial Knights",
+      "Unit Name": "Armiger",
+      "Quantity": "1",
+      "Base Size": "100mm"
+    },
+    {
+      "Faction": "Chaos Knights",
+      "Unit Name": "War Dogs",
+      "Quantity": "2",
+      "Base Size": "100mm"
+    },
+    {
+      "Faction": "Imperial Knights",
+      "Unit Name": "Knight Dominus",
+      "Quantity": "1",
+      "Base Size": "170x109mm"
+    },
+    {
+      "Faction": "Grey Knights",
+      "Unit Name": "Grey Knight Terminators",
+      "Quantity": "5",
+      "Base Size": "40mm"
+    },
+    {
+      "Faction": "Inquisition",
+      "Unit Name": "Inquisitor",
+      "Quantity": "1",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Imperial Knights",
+      "Unit Name": "Moirax",
+      "Quantity": "1",
+      "Base Size": "100mm"
+    },
+    {
+      "Faction": "Imperial Knights",
+      "Unit Name": "Knight Destrier",
+      "Quantity": "1",
+      "Base Size": "170x109mm"
+    },
+    {
+      "Faction": "Kill Team",
+      "Unit Name": "Tau Pathfinders",
+      "Quantity": "13",
+      "Base Size": "25mm"
+    },
+    {
+      "Faction": "Kill Team",
+      "Unit Name": "Cadian Kasrkin",
+      "Quantity": "10",
+      "Base Size": "28.5mm"
+    },
+    {
+      "Faction": "Kill Team",
+      "Unit Name": "Wreka Crew",
+      "Quantity": "8",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Kill Team",
+      "Unit Name": "Plague Marines",
+      "Quantity": "7",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Kill Team",
+      "Unit Name": "Angels of Death",
+      "Quantity": "7",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Kill Team",
+      "Unit Name": "Exaction Squad",
+      "Quantity": "11",
+      "Base Size": "28.5mm"
+    },
+    {
+      "Faction": "Kill Team",
+      "Unit Name": "Canoptek Circle",
+      "Quantity": "8",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Kill Team",
+      "Unit Name": "Fellgor Ravagers",
+      "Quantity": "10",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Kill Team",
+      "Unit Name": "Brood brothers",
+      "Quantity": "10",
+      "Base Size": "25mm"
+    },
+    {
+      "Faction": "Kill Team",
+      "Unit Name": "Imperial Breachers",
+      "Quantity": "12",
+      "Base Size": "25mm"
+    },
+    {
+      "Faction": "Kill Team",
+      "Unit Name": "Hierotek Circle",
+      "Quantity": "11",
+      "Base Size": "32mm"
+    },
+    {
+      "Faction": "Kill Team",
+      "Unit Name": "Hand of the Archon",
+      "Quantity": "10",
+      "Base Size": "28.5mm"
+    },
+    {
+      "Faction": "Kill Team",
+      "Unit Name": "Goremongers",
+      "Quantity": "8",
+      "Base Size": "32mm"
+    }
+  ]
+}
