@@ -32,7 +32,15 @@ model Miniature {
   qty          Int        @default(1)
   collectionId Int
   collection   Collection @relation(fields: [collectionId], references: [id], onDelete: Cascade)
-  state        String     @default("Unassembled") // Unassembled, Assembled, Primed, Painted, Finished
+  
+  // Granular counts
+  unassembled  Int        @default(0)
+  assembled    Int        @default(0)
+  primed       Int        @default(0)
+  painted      Int        @default(0)
+  finished     Int        @default(0)
+
+  state        String     @default("Unassembled")
   createdAt    DateTime   @default(now())
   updatedAt    DateTime   @updatedAt
 }
