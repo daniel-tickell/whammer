@@ -18,17 +18,17 @@ export default function Home() {
       </section>
 
       <div className={styles.grid}>
-        <a href="http://localhost:5173" target="_blank" rel="noreferrer" className={styles.card}>
+        <Link href="/tokengen" className={styles.card}>
           <div className={styles.icon}>🪙</div>
           <h2>TokenGen &rarr;</h2>
           <p>Generate 3D tokens with projected images for your armies.</p>
-        </a>
+        </Link>
 
-        <a href="http://localhost:5556" target="_blank" rel="noreferrer" className={styles.card}>
+        <Link href="/traygen" className={styles.card}>
           <div className={styles.icon}>📦</div>
           <h2>TrayGen &rarr;</h2>
           <p>Parametric 3D printable tray generator for storing your models.</p>
-        </a>
+        </Link>
 
         <a href="http://localhost:3000" target="_blank" rel="noreferrer" className={styles.card}>
           <div className={styles.icon}>📇</div>

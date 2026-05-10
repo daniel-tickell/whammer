@@ -6,7 +6,7 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
@@ -32,8 +32,14 @@ model Miniature {
   qty          Int        @default(1)
   collectionId Int
   collection   Collection @relation(fields: [collectionId], references: [id], onDelete: Cascade)
-  
-  // Granular counts
+
+  // Model metadata (used across apps)
+  baseSize     String?
+  gameSystem   String?
+  unitType     String?
+  tags         String[]   @default([])
+
+  // Granular paint-state counts
   unassembled  Int        @default(0)
   assembled    Int        @default(0)
   primed       Int        @default(0)
