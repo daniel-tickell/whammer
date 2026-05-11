@@ -30,11 +30,11 @@ export default function Home() {
           <p>Parametric 3D printable tray generator for storing your models.</p>
         </Link>
 
-        <a href="http://localhost:3000" target="_blank" rel="noreferrer" className={styles.card}>
+        <Link href="/datacards" className={styles.card}>
           <div className={styles.icon}>📇</div>
           <h2>Datacards &rarr;</h2>
-          <p>Create, manage and print custom datacards for your games.</p>
-        </a>
+          <p>Browse factions, build card decks, and export print-ready PDFs.</p>
+        </Link>
 
         <Link href="/minis" className={`${styles.card} ${styles.highlightCard}`}>
           <div className={styles.icon}>💂</div>

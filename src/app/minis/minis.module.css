@@ -136,22 +136,158 @@
   margin: 0;
 }
 
+.categoryHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 8px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  border-radius: 6px;
+  user-select: none;
+  transition: background 0.15s;
+}
+
+.categoryHeader:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.categoryHeaderTitle {
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.categoryChevron {
+  font-size: 0.55rem;
+  color: rgba(255, 255, 255, 0.25);
+}
+
 .factionItem {
   position: relative;
-  padding: 15px 20px;
-  margin-bottom: 8px;
+  padding: 10px 14px 8px;
+  margin-bottom: 6px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.03);
   cursor: pointer;
   display: flex;
+  flex-direction: column;
+  transition: all 0.2s;
+}
+
+.factionItemTop {
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: all 0.2s;
+  margin-bottom: 5px;
+}
+
+.factionMiniBar {
+  display: flex;
+  height: 4px;
+  border-radius: 3px;
+  overflow: hidden;
+  gap: 1px;
+}
+
+.factionMiniBarSegment {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.factionItem {
+  cursor: grab;
 }
 
 .factionItem:hover {
   background: rgba(255, 255, 255, 0.07);
   transform: translateX(5px);
+}
+
+.draggingFaction {
+  opacity: 0.35;
+  cursor: grabbing;
+  transform: none !important;
+}
+
+.dragOverGroup {
+  background: rgba(39, 174, 96, 0.08);
+  border-radius: 12px;
+  outline: 1px dashed rgba(39, 174, 96, 0.4);
+}
+
+.dragOverFaction {
+  background: rgba(52, 152, 219, 0.15) !important;
+  outline: 1px dashed rgba(52, 152, 219, 0.5);
+  border-radius: 8px;
+}
+
+.draggingUnitItem {
+  opacity: 0.35;
+  cursor: grabbing;
+}
+
+.renameFactionInput {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 1px 6px;
+  width: 100px;
+  outline: none;
+  flex: 1;
+}
+
+.renameFactionBtn {
+  opacity: 0;
+  cursor: pointer;
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.45);
+  transition: opacity 0.15s, color 0.15s;
+  margin-left: 4px;
+  flex-shrink: 0;
+}
+
+.factionItem:hover .renameFactionBtn {
+  opacity: 1;
+}
+
+.renameFactionBtn:hover {
+  color: #fff;
+}
+
+.renameCatInput {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  width: 130px;
+  outline: none;
+}
+
+.renameCatBtn {
+  opacity: 0;
+  cursor: pointer;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  transition: opacity 0.15s, color 0.15s;
+  line-height: 1;
+}
+
+.categoryHeader:hover .renameCatBtn {
+  opacity: 1;
+}
+
+.renameCatBtn:hover {
+  color: #fff;
 }
 
 .activeFaction {
@@ -240,6 +376,199 @@
 
 .actionsBar {
   margin-bottom: 30px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.trayBtn {
+  background: #2980B9;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.2s;
+}
+
+.trayBtn:hover {
+  background: #3498DB;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+}
+
+.modelCheckbox {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: #3498DB;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+.trayPreview {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.trayPreviewRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+}
+
+.trayPreviewOk { color: #27AE60; font-weight: 700; }
+.trayPreviewWarn { color: #F39C12; font-weight: 700; }
+.trayPreviewName { flex: 1; }
+.trayPreviewBase { color: rgba(255,255,255,0.5); min-width: 60px; }
+.trayPreviewQty { color: rgba(255,255,255,0.5); min-width: 30px; }
+.trayPreviewSkip { font-size: 0.75rem; color: #F39C12; font-style: italic; }
+
+.traySummary {
+  background: rgba(255,255,255,0.05);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.trayWarnText {
+  font-size: 0.8rem;
+  color: #F39C12;
+  margin-bottom: 12px;
+}
+
+.trayMergeLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.cardBtn {
+  background: #6C3483;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.2s;
+}
+
+.cardBtn:hover {
+  background: #8E44AD;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(108, 52, 131, 0.35);
+}
+
+.cardColorRow {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 12px;
+}
+
+.cardColorLabel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.colorPicker {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 6px;
+  padding: 2px;
+  cursor: pointer;
+  background: none;
+}
+
+.cardColorHex {
+  font-size: 0.75rem;
+  opacity: 0.55;
+  font-family: monospace;
+}
+
+.cardColorPreview {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.cardPreviewHeader {
+  padding: 8px 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.cardPreviewBanner {
+  padding: 5px 14px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.bulkNavBtn {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+  transition: all 0.15s;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.bulkNavBtn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.selectAllBtn {
+  background: transparent;
+  color: #aaa;
+  border: 1px solid #444;
+  padding: 15px 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.selectAllBtn:hover {
+  background: rgba(255,255,255,0.06);
+  color: #ddd;
+  border-color: #666;
 }
 
 .addBtn {
